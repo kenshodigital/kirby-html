@@ -1,11 +1,11 @@
 # Kirby HTML
 
-Minifies HTML output for [Kirby][1] projects.
+Minifies HTML output for [Kirby][h7z8LG] projects.
 
 ## General
 
 Minifies HTML output by removing comments and trailing whitespace around text nodes,
-using [PHP 8.4’s native HTML5 parser][2].
+using [PHP 8.4’s native HTML5 parser][RE64Nu].
 
 ## Usage
 
@@ -19,6 +19,6 @@ composer require kenshodigital/kirby-html ^1.0
 
 Works out of the box without any configuration.
 
-[1]: https://getkirby.com
+[h7z8LG]: https://getkirby.com
 
-[2]: https://www.php.net/releases/8.4/en.php#dom_additions_html5
+[RE64Nu]: https://www.php.net/releases/8.4/en.php#dom_additions_html5
