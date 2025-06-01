@@ -1,23 +1,23 @@
 {
-  "name": "kenshodigital/kirby-html",
-  "description": "Minifies HTML output for Kirby projects.",
-  "type": "kirby-plugin",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Jens Scherbl"
-    }
-  ],
-  "support": {
-    "source": "https://github.com/kenshodigital/kirby-html"
-  },
-  "require": {
-    "php": "^8.4",
-    "ext-dom": "*",
-    "getkirby/cms": "^5.0",
-    "getkirby/composer-installer": "^1.2"
-  },
-  "extra": {
-    "installer-name": "html"
-  }
+	"name": "kenshodigital/kirby-html",
+	"description": "Minifies HTML output for Kirby projects.",
+	"type": "kirby-plugin",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Jens Scherbl"
+		}
+	],
+	"support": {
+		"source": "https://github.com/kenshodigital/kirby-html"
+	},
+	"require": {
+		"php": "^8.4",
+		"ext-dom": "*",
+		"getkirby/cms": "^5.0",
+		"getkirby/composer-installer": "^1.2"
+	},
+	"extra": {
+		"installer-name": "html"
+	}
 }

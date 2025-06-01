@@ -2,8 +2,12 @@
 
 use Kirby\Cms\App;
 
-App::plugin("kenshodigital/kirby-html", [
-    "hooks" => [
-        "page.render:after" => require __DIR__ . "/hooks/page/render/after.php",
-    ],
-]);
+App::plugin(
+	name: 'kenshodigital/kirby-html',
+	extends: [
+		'hooks' => [
+			'page.render:after' => require __DIR__ .
+				'/hooks/page/render/after.php',
+		],
+	]
+);
